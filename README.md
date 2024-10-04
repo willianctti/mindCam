@@ -1,69 +1,61 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# MindCam - Detecção de Objetos em Tempo Real
 
-## Available Scripts
+## Descrição
 
-In the project directory, you can run:
+MindCam é uma aplicação web que utiliza inteligência artificial para detectar objetos em tempo real através da webcam do usuário. Desenvolvida com React e TensorFlow.js, esta aplicação demonstra o poder da visão computacional e do aprendizado de máquina diretamente no navegador.
 
-### `yarn start`
+## Funcionalidades
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Captura de vídeo em tempo real da webcam do usuário
+- Detecção de objetos utilizando o modelo COCO-SSD
+- Visualização dos objetos detectados com retângulos delimitadores e rótulos
+- Processamento em tempo real para uma experiência interativa
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Tecnologias Utilizadas
 
-### `yarn test`
+- React.js
+- TensorFlow.js
+- COCO-SSD (modelo de detecção de objetos)
+- Webcam API
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Como Executar
 
-### `yarn build`
+1. Clone este repositório:
+   ```
+   git clone https://github.com/seu-usuario/mindcam.git
+   ```
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+2. Entre no diretório do projeto:
+   ```
+   cd mindcam
+   ```
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+3. Instale as dependências:
+   ```
+   npm install
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+4. Inicie a aplicação:
+   ```
+   npm start
+   ```
 
-### `yarn eject`
+5. Abra o navegador e acesse `http://localhost:3000`
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## Estrutura do Projeto
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- `src/App.js`: Componente principal da aplicação
+- `src/utilities.js`: Funções utilitárias para desenhar os retângulos de detecção
+- `public/`: Arquivos públicos e HTML base
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## Contribuições
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou enviar pull requests com melhorias.
 
-## Learn More
+## Licença
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Este projeto está licenciado sob a MIT License.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contato
 
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
-# mindCam
+Se você tiver alguma dúvida ou sugestão, por favor, abra uma issue neste repositório ou entre em contato através do meu perfil do GitHub.
